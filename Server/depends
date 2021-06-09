@@ -1,0 +1,17 @@
+ServerManager.o: ServerManager.c include/ServerNet.h include/List.h \
+ include/List_Itr.h include/Groups.h include/List.h include/List_Itr.h \
+ include/UsersTable.h include/protocol.h include/HashMap.h \
+ include/genericVector.h include/Groups.h include/genericVector.h
+ServerNet.o: ServerNet.c include/ServerNet.h include/List.h \
+ include/List_Itr.h include/Groups.h include/List.h include/List_Itr.h \
+ include/Groups.h
+UsersTable.o: UsersTable.c include/HashMap.h include/UsersTable.h \
+ include/Groups.h include/List.h include/List_Itr.h include/List.h
+protocol.o: protocol.c include/protocol.h include/HashMap.h \
+ include/genericVector.h
+List.o: List.c include/List.h include/List_Itr.h include/List.h
+HashMap.o: HashMap.c include/HashMap.h
+Groups.o: Groups.c include/Groups.h include/IPTable.h include/HashMap.h
+IPTable.o: IPTable.c include/IPTable.h include/queue.h
+queue.o: queue.c include/queue.h
+genericVector.o: genericVector.c include/genericVector.h

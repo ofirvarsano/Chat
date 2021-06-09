@@ -1,0 +1,13 @@
+ClientManager.o: ClientManager.c include/ClientNet.h include/protocol.h \
+ include/HashMap.h include/genericVector.h include/Client_GUI.h \
+ include/protocol.h include/genericVector.h include/List.h \
+ include/List_Itr.h include/List.h
+Client_GUI.o: Client_GUI.c include/Client_GUI.h include/protocol.h \
+ include/HashMap.h include/genericVector.h
+ClientNet.o: ClientNet.c include/ClientNet.h
+protocol.o: protocol.c include/protocol.h include/HashMap.h \
+ include/genericVector.h
+List.o: List.c include/List.h include/List_Itr.h include/List.h
+HashMap.o: HashMap.c include/HashMap.h
+genericVector.o: genericVector.c include/genericVector.h
+List.o: List.c include/List.h include/List_Itr.h include/List.h
